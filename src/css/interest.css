@@ -1,0 +1,795 @@
+body{
+
+  position: relative;
+  width: 428px;
+  height: 926px;
+  
+  background: #E6F7F7;
+  
+    }
+      nav {
+        position: absolute;
+        width: 100%;
+        height: 70px;
+        background: linear-gradient(to right, #66CCCC, #007373); /* Adds a gradient */
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .menu-toggle {
+      display: none;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background: #66CCCC;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      padding: 10px 0;
+      text-align: center;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      z-index: 1000; /* Make sure it's above other elements */
+  }
+  
+  .nav-links.open {
+      display: flex;
+  }
+  .nav-links a {
+    padding: 10px 0; /* Ensure padding for touch devices */
+    display: block; /* Make the entire line clickable */
+    text-align: center;
+    color: #035454; /* Link color */
+    text-decoration: none;
+    pointer-events: auto;
+  }
+  h2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 64px;
+  gap: 10px;
+  position: absolute;
+  width: 273px;
+  height: 76px;
+  left: 668px;
+  top:30px;
+  color: #007575;
+  text-align: center;
+  }
+  .makeup{
+  
+  position: absolute;
+  width: 392px;
+  height: 272px;
+  left: 24px;
+  top: 80px;
+  
+  background: #CCEAEA;
+  
+  
+  
+  
+  }
+  .makeupdescription{
+  
+  
+  position: absolute;
+  width: 245px;
+  height: 171px;
+  left: 150px;
+  top: 55px;
+  
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  /* or 183% */
+  letter-spacing: 0.012em;
+  
+  color: #035454;
+  
+  
+  
+  
+  }
+  .makeupheading{
+  
+  position: absolute;
+  width: 60px;
+  height: 18px;
+  left: 224px;
+  top: 14px;
+  
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  
+  color: #035454;
+  
+  
+  }
+  .Makeupimg{
+  
+  position: absolute;
+  width: 140px;
+  height: 272px;
+  left: 0px;
+  top: 0px;
+  
+  background: url(photo_2024-11-24_10-29-53.jpg);
+  
+  }
+  .coding{
+  
+  position: absolute;
+  width: 402px;
+  height: 432px;
+  left: 19px;
+  top: 370px;
+  
+  background: #B3E0E0;
+  
+  }
+  .codingheading{
+  
+  position: absolute;
+  width: 56px;
+  height: 18px;
+  left: 84px;
+  top: 7px;
+  
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  
+  color: #035454;
+  
+  
+  }
+  .codingdescription{
+  
+  position: absolute;
+  width: 196px;
+  height: 392px;
+  left: 17px;
+  top: 31px;
+  
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.016em;
+  
+  color: #035454;
+  
+  
+  }
+  .codingimg{
+  
+  position: absolute;
+  width: 176px;
+  height: 432px;
+  left: 226px;
+  top: 0px;
+  
+  background: url(photo_2024-11-23_09-49-37.jpg);
+  
+  }
+  
+  @media  (min-width: 1200px) {
+    body{
+      position: relative;
+      width: 1000px;
+      height: 100px;
+      background: #E6F7F7;
+      }
+    nav{
+      position: absolute;
+      width: 1550px;
+      height: 70px;
+      margin-left: -20px;
+      margin-top: -8px;
+      margin-right: -2000px;
+      background: #66CCCC;
+      
+      }
+      nav a{
+        text-decoration: none;
+        color: #035454;
+        margin: 0 20px;
+      }
+    h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 64px;
+    gap: 10px;
+    position: absolute;
+    width: 273px;
+    height: 76px;
+    left: 668px;
+    top:30px;
+    color: #035454;
+    text-align: center;
+    }
+    .makeup{
+    position: absolute;
+    width: 1450px;
+    height: 250px;
+    left: 50px;
+    top: 150px;
+    background: #CCEAEA;
+    
+    }
+    .makeupdescription{
+    position: absolute;
+    width: 751px;
+    height: 118px;
+    left: 489px;
+    top: 70px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 27px;
+    letter-spacing: 0.019em;
+    color: #035454;
+    }
+    .makeupheading{
+    position: absolute;
+    width: 129px;
+    height: 43px;
+    left: 661px;
+    top: -10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 43px;
+    letter-spacing: 0.033em;
+    color: #035454;
+    }
+    .Makeupimg{
+    position: absolute;
+    width: 459px;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+    background: url(photo_2024-11-24_10-29-53.jpg);
+    }
+    .coding{
+    position: absolute;
+    width: 1450px;
+    height: 250px;
+    left: 50px;
+    top: 470px;
+    
+    background: #B3E0E0;
+    }
+    .codingheading{
+      position: absolute;
+      width: 129px;
+      height: 43px;
+      left: 661px;
+      top: -10px;
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 33px;
+      line-height: 43px;
+      letter-spacing: 0.033em;
+      color: #035454;
+    }
+    .codingdescription{
+    position: absolute;
+    width: 908px;
+    height: 141px;
+    left: 16px;
+    top: 60px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 27px;
+    letter-spacing: 0.019em;
+    color: #035454;
+    }
+    .codingimg{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    left: 1000px;
+    top: 0px;
+    background: url(photo_2024-11-23_09-49-37.jpg);
+    }
+  }
+  @media (min-width: 480px) and (max-width: 599px) { /* Mobile Landscape */
+    body{
+    
+  position: relative;
+  width: 926px;
+  height: 428px;
+  
+  background: #E6F7F7;
+  
+      }
+      nav {
+    
+  
+        position: absolute;
+        width: 428px;
+        height: 45px;
+        left: 0px;
+        top: 0px;
+        
+        background: #66CCCC;
+        
+          }
+          
+          .menu-toggle {
+            display: none;
+            font-size: 24px;
+            cursor: pointer;
+          }
+          
+          .nav-links {
+            display: none;
+            flex-direction: column;
+            background: #66CCCC;
+            position: absolute;
+            top: 70px;
+            left: 0;
+            width: 100%;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            z-index: 1000; /* Make sure it's above other elements */
+        }
+        
+        .nav-links.open {
+            display: flex;
+        }
+        .nav-links a {
+          padding: 10px 0; /* Ensure padding for touch devices */
+          display: block; /* Make the entire line clickable */
+          text-align: center;
+          color: #035454; /* Link color */
+          text-decoration: none;
+          pointer-events: auto;
+        }
+        
+          .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+            box-sizing: border-box;
+          }
+    h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 64px;
+    gap: 10px;
+    position: absolute;
+    width: 273px;
+    height: 76px;
+    left: 668px;
+    top:30px;
+    color: #007575;
+    text-align: center;
+    }
+    .makeup{
+    position: absolute;
+    width: 1450px;
+    height: 250px;
+    left: 50px;
+    top: 150px;
+    background: #CCEAEA;
+    
+    }
+    .makeupdescription{
+    position: absolute;
+    width: 751px;
+    height: 118px;
+    left: 489px;
+    top: 70px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 27px;
+    letter-spacing: 0.019em;
+    color: #035454;
+    }
+    .makeupheading{
+    position: absolute;
+    width: 129px;
+    height: 43px;
+    left: 661px;
+    top: -10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 43px;
+    letter-spacing: 0.033em;
+    color: #035454;
+    }
+    .Makeupimg{
+    position: absolute;
+    width: 459px;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+    background: url(photo_2024-11-24_10-29-53.jpg);
+    }
+    .coding{
+    position: absolute;
+    width: 1450px;
+    height: 250px;
+    left: 50px;
+    top: 470px;
+    
+    background: #B3E0E0;
+    }
+    .codingheading{
+      position: absolute;
+      width: 129px;
+      height: 43px;
+      left: 661px;
+      top: -10px;
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 33px;
+      line-height: 43px;
+      letter-spacing: 0.033em;
+      color: #007575;
+    }
+    .codingdescription{
+    position: absolute;
+    width: 908px;
+    height: 141px;
+    left: 16px;
+    top: 60px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 27px;
+    letter-spacing: 0.019em;
+    color: #2C7777;
+    }
+    .codingimg{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    left: 1000px;
+    top: 0px;
+    background: url(photo_2024-11-23_09-49-37.jpg);
+    }
+  }
+  /* Tablet Portrait */
+  @media (min-width: 600px) and (max-width: 767px){
+    body{
+   
+  
+  position: relative;
+  width: 1000px;
+  height: 366px;
+  
+  background: #E6F7F7;
+  
+      }
+    nav{
+  
+      position: absolute;
+      width: 800px;
+      height: 70px;
+      margin-left: -20px;
+      margin-top: -8px;
+      margin-right: -2000px;
+      background: #66CCCC;
+  
+      
+      }
+      nav a{
+    
+        text-decoration: none;
+        color: #007373;
+        margin: 0 20px;
+  
+  
+      }
+    h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 64px;
+    gap: 10px;
+    position: absolute;
+    width: 273px;
+    height: 76px;
+    left: 150px;
+    top:30px;
+    color: #007575;
+    text-align: center;
+    }
+    .makeup{
+   
+  
+  
+  position: absolute;
+  width: 356px;
+  height: 304px;
+  left: 27px;
+  top: 511px;
+  
+  background: #CCEAEA;
+  
+  
+    
+    }
+    .makeupdescription{
+  position: absolute;
+  width: 331px;
+  height: 266px;
+  left: calc(50% - 331px/2 + 0.5px);
+  top: calc(50% - 266px/2 + 27px);
+  
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 144% */
+  letter-spacing: 0.018em;
+  
+  color: #2C7777;
+  
+  
+    }
+    .makeupheading{
+    position: absolute;
+    width: 129px;
+    height: 43px;
+    left: 61px;
+    top: -30px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 43px;
+    letter-spacing: 0.033em;
+    color: #007575;
+    }
+    .Makeupimg{
+  position: absolute;
+  width: 350px;
+  height: 268px;
+  left:1px;
+  top: -280px;
+  
+  background: url(photo_2024-11-24_10-29-53.jpg);
+  }
+    .coding{
+  
+  
+  position: absolute;
+  width: 403px;
+  height: 268px;
+  left: 481px;
+  top: 386px;
+  
+  background: url(photo_2024-11-23_09-49-37.jpg);
+  
+  
+  
+  
+  position: absolute;
+  width: 403px;
+  height: 331px;
+  left: 400px;
+  top: 510px;
+  
+  background: #CCEAEA;
+  
+    }
+    .codingheading{
+      position: absolute;
+      width: 129px;
+      height: 43px;
+      left: 161px;
+      top: -10px;
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 31px;
+      line-height: 43px;
+      letter-spacing: 0.033em;
+      color: #007575;
+    }
+    .codingdescription{
+   
+  position: absolute;
+  width: 351px;
+  height: 242px;
+  left: calc(50% - 351px/2 - 3px);
+  top: calc(50% - 242px/2 + 17.5px);
+  
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 144% */
+  letter-spacing: 0.018em;
+  
+  color: #2C7777;
+  
+  
+    }
+    .codingimg{
+   
+  position: absolute;
+  width: 403px;
+  height: 268px;
+  left: 1px;
+  top: -280px;
+  
+  background: url(photo_2024-11-23_09-49-37.jpg);
+  }
+  }
+  /* Tablet Landscape */
+  @media (min-width: 768px) and (max-width: 1199px) {
+    body{
+      position: relative;
+      width: 1000px;
+      height: 100px;
+      background: #E6F7F7;
+      }
+    nav{
+      position: absolute;
+      width: 1550px;
+      height: 70px;
+      margin-left: -20px;
+      margin-top: -8px;
+      margin-right: -2000px;
+      background: #66CCCC;
+      
+      }
+      nav a{
+        text-decoration: none;
+        color: #007373;
+        margin: 0 20px;
+      }
+    h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 64px;
+    gap: 10px;
+    position: absolute;
+    width: 273px;
+    height: 76px;
+    left: 668px;
+    top:30px;
+    color: #007575;
+    text-align: center;
+    }
+    .makeup{
+    position: absolute;
+    width: 1450px;
+    height: 250px;
+    left: 50px;
+    top: 150px;
+    background: #CCEAEA;
+    
+    }
+    .makeupdescription{
+    position: absolute;
+    width: 751px;
+    height: 118px;
+    left: 489px;
+    top: 70px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 27px;
+    letter-spacing: 0.019em;
+    color: #2C7777;
+    }
+    .makeupheading{
+    position: absolute;
+    width: 129px;
+    height: 43px;
+    left: 661px;
+    top: -10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 43px;
+    letter-spacing: 0.033em;
+    color: #007575;
+    }
+    .Makeupimg{
+    position: absolute;
+    width: 459px;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+    background: url(photo_2024-11-24_10-29-53.jpg);
+    }
+    .coding{
+    position: absolute;
+    width: 1450px;
+    height: 250px;
+    left: 50px;
+    top: 470px;
+    
+    background: #B3E0E0;
+    }
+    .codingheading{
+      position: absolute;
+      width: 129px;
+      height: 43px;
+      left: 661px;
+      top: -10px;
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 33px;
+      line-height: 43px;
+      letter-spacing: 0.033em;
+      color: #007575;
+    }
+    .codingdescription{
+    position: absolute;
+    width: 908px;
+    height: 141px;
+    left: 16px;
+    top: 60px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 27px;
+    letter-spacing: 0.019em;
+    color: #2C7777;
+    }
+    .codingimg{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    left: 1000px;
+    top: 0px;
+    background: url(photo_2024-11-23_09-49-37.jpg);
+    }
+  }

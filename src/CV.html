@@ -2,43 +2,66 @@
 <html lang="en">
   <head>
     <title>Portfolio - CV</title>
+    <link rel="stylesheet" href="./css/cv.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
   </head>
   <body>
     <header>
       <nav>
-        <a href="home.html"><img src="images/icons8-home-50.png" alt="Home Page"></a>
-        <a href="Interest.html">Interest</a>
-        <a href="Hobbies.html">Hobbies</a>
-        <a href="CV.html">CV</a>
+        <span class="menu-toggle">☰</span>
+        <ul class="nav-links">
+          <a href="home.html"><img src="./images/icons8-home-50.png" alt="Home Page"></a>
+          <a href="Interest.html">Interest</a>
+          <a href="Hobbies.html">Hobbies</a>
+          <a href="CV.html">CV</a>
+        </ul>
       </nav>
     </header>
     <main>
       <h2>CV</h2>
+      <div class="Main-content"> 
       <article>
-        <h3>Profile</h3>
-        <p>
+        <h3 class="profileheading">Profile</h3>
+        <p class="profileparagraph">
           I am a 3rd-year software engineering student with a passion for learning and exploring the field of technology. Currently building my skill set through coursework and academic projects, I am eager to gain practical experience and develop innovative solutions.
         </p>
       </article>
       <article>
-        <h3>Skills</h3>
-        <p>
+        <h3 class="skillsheading">Skills</h3>
+        <p class="skillsparagraph">
           I have a foundational understanding of programming and development tools. My technical skills include basic knowledge of programming languages such as Java and Python, as well as an introduction to web technologies like HTML and CSS.
         </p>
       </article>
-      <article>
-        <h3>Education</h3>
-        <p>
+      <article class="ed">
+        <h3 class="educationheading">Education</h3>
+        <p class="educationparagraph">
           Bachelor of Technology in Software Engineering<br>
           Addis Ababa University, Addis Ababa, Ethiopia<br>
           Expected Graduation: May 2027/28
         </p>
       </article>
+    </div>
     </main>
     <footer>
-      <a href="Contact.html">Contact Me</a>
-      <p>"Experience is the name everyone gives to their mistakes."</p>
+      <div> <a class="contactbutton" href="Contact.html"> 
+       <p class="footercontact">Contact Me</p> 
+      </a></div>
+    <div><p class="footerparagraph">"Experience is the name everyone gives to their mistakes."</p></div>
     </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+    
+        if (menuToggle && navLinks) {
+          menuToggle.addEventListener("click", function () {
+            navLinks.classList.toggle("open");
+          });
+        } else {
+          console.error("Menu toggle or nav links element not found.");
+        }
+      });
+    </script>
   </body>
 </html>

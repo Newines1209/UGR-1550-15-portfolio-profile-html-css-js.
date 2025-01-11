@@ -1,0 +1,840 @@
+body{
+  position: relative;
+  width: 1000px;
+  height: 100px;
+  background: #E6F7F7;
+  }
+nav{
+  position: absolute;
+  width: 1550px;
+  height: 70px;
+  margin-left: -20px;
+  margin-top: -8px;
+  margin-right: -2000px;
+  background: #66CCCC;
+  
+  }
+  nav a{
+    text-decoration: none;
+    color: #035454;
+    margin: 0 20px;
+  }
+h2{
+position: absolute;
+width: 158px;
+height: 46px;
+left: 772px;
+top: 50px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+color: #035454;
+}
+.culinary{
+position: absolute;
+width: 1450px;
+height: 200px;
+left: 50px;
+top: 150px;
+background: #CCEAEA;
+}
+.culinaryheading{
+position: absolute;
+width: 273px;
+height: 76px;
+left: 668px;
+top: -20px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 43px;
+letter-spacing: 0.033em;
+color: #035454;
+}
+.culinaryvideo{
+position: absolute;
+width: 459px;
+height: 200px;
+left: 0px;
+top: 0px;
+background: url(images/IMG_3254.MP4);
+}
+.culinarydescription{
+position: absolute;
+width: 900px;
+height: 300px;
+left: 489px;
+top: 40px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+letter-spacing: 0.019em;
+color: #035454;
+}
+.reading{
+position: absolute;
+width: 1400px;
+height: 160px;
+left: 50px;
+top: 365px;
+background: #B3E0E0;
+}
+.readingdescription{
+position: absolute;
+width: 1000px;
+height: 160px;
+left: 50px;
+top: 29px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+letter-spacing: 0.019em;
+color: #035454;
+}
+.readingheading{
+position: absolute;
+width: 273px;
+height: 76px;
+left: 668px;
+top: -15px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 43px;
+letter-spacing: 0.033em;
+color: #035454;
+}
+.readingimg{
+position: absolute;
+width: 375px;
+height: 160px;
+left: 1073px;
+top: -1px;
+background: url(photo_2024-11-23_21-24-03.jpg);
+}
+.movies{
+position: absolute;
+width: 1450px;
+height: 150px;
+left: 50px;
+top: 540px;
+background: #CCEAEA;
+}
+.moviesimg{
+position: absolute;
+width: 434px;
+height: 150px;
+left: 0px;
+top: 0px;
+background: url(photo_2024-11-23_21-09-22.jpg);
+}
+.moviesheading{
+position: absolute;
+width: 118px;
+height: 43px;
+left: 661px;
+top: -25px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 33px;
+line-height: 43px;
+letter-spacing: 0.033em;
+color: #035454;
+}
+.moviesdescription{
+position: absolute;
+width: 906px;
+height: 151px;
+left: 476px;
+top: 35px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.016em;
+color: #035454;
+}
+@media (min-width: 1200px){
+  body{
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    background: #E6F7F7;
+    }
+  nav{
+    position: absolute;
+    width: 1550px;
+    height: 70px;
+    margin-left: -20px;
+    margin-top: -8px;
+    margin-right: -2000px;
+    background: #66CCCC;
+    
+    }
+    nav a{
+      text-decoration: none;
+      color: #035454;
+      margin: 0 20px;
+    }
+  h2{
+  position: absolute;
+  width: 158px;
+  height: 46px;
+  left: 772px;
+  top: 50px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #035454;
+  }
+  .culinary{
+  position: absolute;
+  width: 1450px;
+  height: 200px;
+  left: 50px;
+  top: 150px;
+  background: #CCEAEA;
+  }
+  .culinaryheading{
+  position: absolute;
+  width: 273px;
+  height: 76px;
+  left: 668px;
+  top: -20px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 43px;
+  letter-spacing: 0.033em;
+  color: #035454;
+  }
+  .culinaryvideo{
+  position: absolute;
+  width: 459px;
+  height: 200px;
+  left: 0px;
+  top: 0px;
+  background: url(images/IMG_3254.MP4);
+  }
+  .culinarydescription{
+  position: absolute;
+  width: 900px;
+  height: 300px;
+  left: 489px;
+  top: 40px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.019em;
+  color: #035454;
+  }
+  .reading{
+  position: absolute;
+  width: 1400px;
+  height: 160px;
+  left: 50px;
+  top: 365px;
+  background: #B3E0E0;
+  }
+  .readingdescription{
+  position: absolute;
+  width: 1000px;
+  height: 160px;
+  left: 50px;
+  top: 29px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.019em;
+  color: #035454;
+  }
+  .readingheading{
+  position: absolute;
+  width: 273px;
+  height: 76px;
+  left: 668px;
+  top: -15px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 43px;
+  letter-spacing: 0.033em;
+  color: #035454;
+  }
+  .readingimg{
+  position: absolute;
+  width: 375px;
+  height: 160px;
+  left: 1073px;
+  top: -1px;
+  background: url(photo_2024-11-23_21-24-03.jpg);
+  }
+  .movies{
+  position: absolute;
+  width: 1450px;
+  height: 150px;
+  left: 50px;
+  top: 540px;
+  background: #CCEAEA;
+  }
+  .moviesimg{
+  position: absolute;
+  width: 434px;
+  height: 150px;
+  left: 0px;
+  top: 0px;
+  background: url(photo_2024-11-23_21-09-22.jpg);
+  }
+  .moviesheading{
+  position: absolute;
+  width: 118px;
+  height: 43px;
+  left: 661px;
+  top: -25px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 43px;
+  letter-spacing: 0.033em;
+  color: #035454;
+  }
+  .moviesdescription{
+  position: absolute;
+  width: 906px;
+  height: 151px;
+  left: 476px;
+  top: 35px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.016em;
+  color: #035454;
+  } 
+}
+@media (min-width: 480px) and (max-width: 599px) { /* Mobile Landscape */
+  body{
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    background: #E6F7F7;
+    }
+  nav{
+    position: absolute;
+    width: 1550px;
+    height: 70px;
+    margin-left: -20px;
+    margin-top: -8px;
+    margin-right: -2000px;
+    background: #66CCCC;
+    
+    }
+    nav a{
+      text-decoration: none;
+      color: #035454;
+      margin: 0 20px;
+    }
+  h2{
+  position: absolute;
+  width: 158px;
+  height: 46px;
+  left: 772px;
+  top: 50px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #007575;
+  }
+  .culinary{
+  position: absolute;
+  width: 1450px;
+  height: 200px;
+  left: 50px;
+  top: 150px;
+  background: #CCEAEA;
+  }
+  .culinaryheading{
+  position: absolute;
+  width: 273px;
+  height: 76px;
+  left: 668px;
+  top: -20px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 43px;
+  letter-spacing: 0.033em;
+  color: #005F5F;
+  }
+  .culinaryvideo{
+  position: absolute;
+  width: 459px;
+  height: 200px;
+  left: 0px;
+  top: 0px;
+  background: url(images/IMG_3254.MP4);
+  }
+  .culinarydescription{
+  position: absolute;
+  width: 900px;
+  height: 300px;
+  left: 489px;
+  top: 40px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.019em;
+  color: #2C7777;
+  }
+  .reading{
+  position: absolute;
+  width: 1400px;
+  height: 160px;
+  left: 50px;
+  top: 365px;
+  background: #B3E0E0;
+  }
+  .readingdescription{
+  position: absolute;
+  width: 1000px;
+  height: 160px;
+  left: 50px;
+  top: 29px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.019em;
+  color: #2C7777;
+  }
+  .readingheading{
+  position: absolute;
+  width: 273px;
+  height: 76px;
+  left: 668px;
+  top: -15px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 43px;
+  letter-spacing: 0.033em;
+  color: #007575;
+  }
+  .readingimg{
+  position: absolute;
+  width: 375px;
+  height: 160px;
+  left: 1073px;
+  top: -1px;
+  background: url(photo_2024-11-23_21-24-03.jpg);
+  }
+  .movies{
+  position: absolute;
+  width: 1450px;
+  height: 150px;
+  left: 50px;
+  top: 540px;
+  background: #CCEAEA;
+  }
+  .moviesimg{
+  position: absolute;
+  width: 434px;
+  height: 150px;
+  left: 0px;
+  top: 0px;
+  background: url(photo_2024-11-23_21-09-22.jpg);
+  }
+  .moviesheading{
+  position: absolute;
+  width: 118px;
+  height: 43px;
+  left: 661px;
+  top: -25px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 43px;
+  letter-spacing: 0.033em;
+  color: #007575;
+  }
+  .moviesdescription{
+  position: absolute;
+  width: 906px;
+  height: 151px;
+  left: 476px;
+  top: 35px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.016em;
+  color: #2C7777;
+}
+}
+/* Tablet Portrait */
+@media (min-width: 600px) and (max-width: 767px){
+  body{
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    background: #E6F7F7;
+    }
+  nav{
+    position: absolute;
+    width: 1550px;
+    height: 70px;
+    margin-left: -20px;
+    margin-top: -8px;
+    margin-right: -2000px;
+    background: #66CCCC;
+    
+    }
+    nav a{
+      text-decoration: none;
+      color: #007373;
+      margin: 0 20px;
+    }
+  h2{
+  position: absolute;
+  width: 158px;
+  height: 46px;
+  left: 772px;
+  top: 50px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #007575;
+  }
+  .culinary{
+  position: absolute;
+  width: 1450px;
+  height: 200px;
+  left: 50px;
+  top: 150px;
+  background: #CCEAEA;
+  }
+  .culinaryheading{
+  position: absolute;
+  width: 273px;
+  height: 76px;
+  left: 668px;
+  top: -20px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 43px;
+  letter-spacing: 0.033em;
+  color: #005F5F;
+  }
+  .culinaryvideo{
+  position: absolute;
+  width: 459px;
+  height: 200px;
+  left: 0px;
+  top: 0px;
+  background: url(images/IMG_3254.MP4);
+  }
+  .culinarydescription{
+  position: absolute;
+  width: 900px;
+  height: 300px;
+  left: 489px;
+  top: 40px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.019em;
+  color: #2C7777;
+  }
+  .reading{
+  position: absolute;
+  width: 1400px;
+  height: 160px;
+  left: 50px;
+  top: 365px;
+  background: #B3E0E0;
+  }
+  .readingdescription{
+  position: absolute;
+  width: 1000px;
+  height: 160px;
+  left: 50px;
+  top: 29px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.019em;
+  color: #2C7777;
+  }
+  .readingheading{
+  position: absolute;
+  width: 273px;
+  height: 76px;
+  left: 668px;
+  top: -15px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 43px;
+  letter-spacing: 0.033em;
+  color: #007575;
+  }
+  .readingimg{
+  position: absolute;
+  width: 375px;
+  height: 160px;
+  left: 1073px;
+  top: -1px;
+  background: url(photo_2024-11-23_21-24-03.jpg);
+  }
+  .movies{
+  position: absolute;
+  width: 1450px;
+  height: 150px;
+  left: 50px;
+  top: 540px;
+  background: #CCEAEA;
+  }
+  .moviesimg{
+  position: absolute;
+  width: 434px;
+  height: 150px;
+  left: 0px;
+  top: 0px;
+  background: url(photo_2024-11-23_21-09-22.jpg);
+  }
+  .moviesheading{
+  position: absolute;
+  width: 118px;
+  height: 43px;
+  left: 661px;
+  top: -25px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 43px;
+  letter-spacing: 0.033em;
+  color: #007575;
+  }
+  .moviesdescription{
+  position: absolute;
+  width: 906px;
+  height: 151px;
+  left: 476px;
+  top: 35px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.016em;
+  color: #2C7777;
+}
+}
+/* Tablet Landscape */
+@media (min-width: 768px) and (max-width: 1199px) {
+  body{
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    background: #E6F7F7;
+    }
+  nav{
+    position: absolute;
+    width: 1550px;
+    height: 70px;
+    margin-left: -20px;
+    margin-top: -8px;
+    margin-right: -2000px;
+    background: #66CCCC;
+    
+    }
+    nav a{
+      text-decoration: none;
+      color: #007373;
+      margin: 0 20px;
+    }
+  h2{
+  position: absolute;
+  width: 158px;
+  height: 46px;
+  left: 772px;
+  top: 50px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #007575;
+  }
+  .culinary{
+  position: absolute;
+  width: 1450px;
+  height: 200px;
+  left: 50px;
+  top: 150px;
+  background: #CCEAEA;
+  }
+  .culinaryheading{
+  position: absolute;
+  width: 273px;
+  height: 76px;
+  left: 668px;
+  top: -20px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 43px;
+  letter-spacing: 0.033em;
+  color: #005F5F;
+  }
+  .culinaryvideo{
+  position: absolute;
+  width: 459px;
+  height: 200px;
+  left: 0px;
+  top: 0px;
+  background: url(images/IMG_3254.MP4);
+  }
+  .culinarydescription{
+  position: absolute;
+  width: 900px;
+  height: 300px;
+  left: 489px;
+  top: 40px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.019em;
+  color: #2C7777;
+  }
+  .reading{
+  position: absolute;
+  width: 1400px;
+  height: 160px;
+  left: 50px;
+  top: 365px;
+  background: #B3E0E0;
+  }
+  .readingdescription{
+  position: absolute;
+  width: 1000px;
+  height: 160px;
+  left: 50px;
+  top: 29px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.019em;
+  color: #2C7777;
+  }
+  .readingheading{
+  position: absolute;
+  width: 273px;
+  height: 76px;
+  left: 668px;
+  top: -15px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 43px;
+  letter-spacing: 0.033em;
+  color: #007575;
+  }
+  .readingimg{
+  position: absolute;
+  width: 375px;
+  height: 160px;
+  left: 1073px;
+  top: -1px;
+  background: url(photo_2024-11-23_21-24-03.jpg);
+  }
+  .movies{
+  position: absolute;
+  width: 1450px;
+  height: 150px;
+  left: 50px;
+  top: 540px;
+  background: #CCEAEA;
+  }
+  .moviesimg{
+  position: absolute;
+  width: 434px;
+  height: 150px;
+  left: 0px;
+  top: 0px;
+  background: url(photo_2024-11-23_21-09-22.jpg);
+  }
+  .moviesheading{
+  position: absolute;
+  width: 118px;
+  height: 43px;
+  left: 661px;
+  top: -25px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 43px;
+  letter-spacing: 0.033em;
+  color: #007575;
+  }
+  .moviesdescription{
+  position: absolute;
+  width: 906px;
+  height: 151px;
+  left: 476px;
+  top: 35px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.016em;
+  color: #2C7777;
+}
+}

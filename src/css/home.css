@@ -1,0 +1,173 @@
+/*phone portrait*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 100vh;
+  background: #E6F7F7;
+  margin: 0;
+}
+
+nav {
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  max-width: 2000px;
+  height: 70px;
+  background: #66CCCC;
+  padding: 0 20px;
+  box-sizing: border-box;
+  left: -20px;
+  
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #035454;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 600px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #66CCCC;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 10px 0;
+    width: 100%;
+  }
+}
+
+nav a {
+  text-decoration: none;
+  color: #007373;
+  margin: 0 20px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0.048em;
+  color: #007575;
+  margin: 200px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.firstimage, .secondimage {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.firstimage {
+  background-image: url(photo_2024-11-23_21-14-58);
+}
+
+.secondimage {
+  background-image: url(photo_2024-11-23_09-53-55);
+}
+
+.bodytext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 16px;
+  background: #E6F7F7;
+  border: 1px solid #CCEAEA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 27px;
+  letter-spacing: 0.019em;
+  color: #005F5F;
+  max-width: 716px;
+
+}
+
+/*desktop*/
+@media (min-width: 1200px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .bodytext {
+    margin-top: -300px;
+    margin-left: 700px;
+  }
+  .firstimage{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    left: 1200px;
+    top: 150px;
+  }
+}
+
+/* Tablet and Mobile */
+@media (max-width: 1199px) {
+  .container {
+    flex-direction: column;
+  }
+
+  nav {
+    flex-wrap: wrap;
+  }
+}

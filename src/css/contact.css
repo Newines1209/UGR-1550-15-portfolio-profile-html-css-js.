@@ -1,0 +1,824 @@
+body{
+
+  position: relative;
+  width: 428px;
+  height: 926px;
+  background: #E6F7F7;
+  
+    }
+  
+    h2{
+  
+  position: absolute;
+  width: 298px;
+  height: 33px;
+  left: 34px;
+  top: 40px;
+  
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  
+  color: #007575;
+  
+  
+  
+    }
+    h3{
+  position: absolute;
+  width: 346px;
+  height: 85px;
+  left: 24px;
+  top: 120px;
+  
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 44px;
+  
+  color: #2C7777;
+  
+  
+    }
+    hr{
+  position: absolute;
+  width: 520px;
+  height: 0px;
+  left: 0px;
+  top: 345px;
+  
+  border: 1px solid #333333;
+  transform: rotate(-0.22deg);
+  
+    }
+    .mainimage{
+  position: absolute;
+  width: 186.87px;
+  height: 181.91px;
+  left: 241.2px;
+  top: 205px;
+  border-radius: 95px;
+  
+  background: url(photo_2022-05-06_17-58-31.jpg);
+  transform: rotate(1.64deg);
+  
+  
+    }
+    .icon1{
+  width: 57px;
+  height: 47px;
+  
+  background: url(icons8-gmail-50.png);
+  
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  
+    }
+    .icon2{
+  
+  
+  width: 57px;
+  height: 47px;
+  
+  background: url(icons8-level-up-your-coding-skills-and-quickly-land-a-job-50.png);
+  
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  
+  
+    }
+    .icon3{
+  
+      width: 57px;
+      height: 47px;
+      
+      background: url(icons8-github-50.png);
+      
+      flex: none;
+      order: 2;
+      align-self: stretch;
+      flex-grow: 0;
+      
+  
+    }
+    .icon4{
+  
+  
+  width: 57px;
+  height: 47px;
+  
+  background: url(icons8-linkedin-logo-50.png);
+  
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+  
+    }
+    .icon5{
+  
+  
+  width: 57px;
+  height: 47px;
+  
+  background: url(icons8-phone-50.png);
+  
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
+  
+  
+    }
+    .icons{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 33px;
+  
+  position: absolute;
+  width: 57px;
+  height: 385px;
+  left: 34px;
+  top: 445px;
+  
+  
+  
+  width: 57px;
+  height: 47px;
+  
+  background: url(icons8-gmail-50.png);
+  
+  
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  
+  
+  width: 57px;
+  height: 47px;
+  
+  background: url(icons8-level-up-your-coding-skills-and-quickly-land-a-job-50.png);
+  
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  
+  
+  
+  width: 57px;
+  height: 47px;
+  
+  background: url(icons8-github-50.png);
+  
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  
+  
+  width: 57px;
+  height: 47px;
+  
+  background: url(icons8-linkedin-logo-50.png);
+  
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+  
+  
+  
+  width: 57px;
+  height: 47px;
+  
+  background: url(icons8-phone-50.png);
+  
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 56px;
+  
+  position: absolute;
+  width: 240px;
+  height: 331px;
+  left: 98px;
+  top: 458px;
+  
+  
+  
+  width: 240px;
+  height: 29px;
+  
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  
+  color: #2C7777;
+  
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  
+  
+  width: 240px;
+  height: 21px;
+  
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  
+  color: #2C7777;
+  
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  
+  
+  width: 240px;
+  height: 21px;
+  
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  
+  color: #2C7777;
+  
+  
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  
+  
+  
+  width: 240px;
+  height: 18px;
+  
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  
+  color: #2C7777;
+  
+  
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+  
+  
+  
+  width: 240px;
+  height: 18px;
+  
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  
+  color: #2C7777;
+  
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
+  
+  
+  
+    }  
+  
+  
+  @media (min-width: 1200px){
+    body{
+      position: relative;
+      width: 1000px;
+      height: 100px;
+      background: #E6F7F7;
+      }
+    
+      h2{
+    position: absolute;
+    width: 382px;
+    height: 112px;
+    left: 364px;
+    margin-top: 100px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    color: #007575;
+    
+      }
+      h3{
+    position: absolute;
+    width: 346px;
+    height: 85px;
+    left: 207px;
+    margin-top: 300px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #2C7777;
+      }
+      hr{
+    position: absolute;
+    width: 1095px;
+    height: 0px;
+    left: 38px;
+    margin-top: 500px;
+    border: 1px solid #333333;
+      }
+      .mainimage{
+    
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius:175px;
+    left: 1087px;
+    top: 200px;
+    
+    background: url(photo_2022-05-06_17-58-31.jpg);
+    
+      }
+      .icon1{
+    width:40px;
+    height: 47px;
+    background: url(icons8-gmail-50.png);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+      }
+      .icon2{
+    width:40px;
+    height: 47px;
+    
+    background: url(icons8-level-up-your-coding-skills-and-quickly-land-a-job-50.png);
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    
+      }
+      .icon3{
+    width:40px;
+    height: 47px;
+    
+    background: url(icons8-github-50.png);
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    
+      }
+      .icon4{
+    width:40px;
+    height: 47px;
+    background: url(icons8-linkedin-logo-50.png);
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+      }
+      .icon5{
+    width:40px;
+    height: 47px;
+    background: url(icons8-phone-50.png);
+    
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    
+      }
+      .icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 0px;
+    gap: 0px 35px;
+    
+    position: absolute;
+    width: 900px;
+    height: 45px; 
+    left:40px;
+    top: 600px;
+      } } 
+  
+  @media (min-width: 480px) and (max-width: 599px) { /* Mobile Landscape */
+    body{
+      position: relative;
+      width: 926px;
+      height: 428px;
+      background: #E6F7F7;
+          }
+        nav{
+      position: absolute;
+      width: 926px;
+      height: 45px;
+      left: 0px;
+      top: 0px;
+      background: #66CCCC;  
+          }
+          nav a{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 10px;
+      position: absolute;
+      width: 32px;
+      height: 22px;
+      left: 871px;
+      top: 9px;
+          }
+        h2{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 115px;
+      gap: 10px;
+      position: absolute;
+      width: 315px;
+      height: 90px;
+      left: 158px;
+      top: 82px; 
+        }
+        
+        .firstimage{
+      position: absolute;
+      width: 123px;
+      height: 108px;
+      left: 737px;
+      top: 82px;
+      background: url(photo_2024-11-23_21-14-58.jpg);
+        }
+        .secondimage{
+      position: absolute;
+      width: 158px;
+      height: 143px;
+      left: 43px;
+      top: 208px;
+      background: url(photo_2024-11-23_09-53-55.jpg);
+        } 
+        .bodytext {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 16px;
+      gap: 10px;
+      position: absolute;
+      width: 633px;
+      height: 150px;
+      left: 236px;
+      top: 250px;
+      background: #E6F7F7;
+      border: 1px solid #CCEAEA;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }     
+  }
+  /* Tablet Portrait */
+  @media (min-width: 600px) and (max-width: 767px){
+    body{
+      position: relative;
+      width: 1000px;
+      height: 100px;
+      background: #E6F7F7;
+      }
+    
+      h2{
+    position: absolute;
+    width: 382px;
+    height: 112px;
+    left: 364px;
+    margin-top: 100px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    color: #007575;
+    
+      }
+      h3{
+    position: absolute;
+    width: 346px;
+    height: 85px;
+    left: 207px;
+    margin-top: 300px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #2C7777;
+      }
+      hr{
+    position: absolute;
+    width: 1095px;
+    height: 0px;
+    left: 38px;
+    margin-top: 500px;
+    border: 1px solid #333333;
+      }
+      .mainimage{
+    
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius:175px;
+    left: 1087px;
+    top: 200px;
+    
+    background: url(photo_2022-05-06_17-58-31.jpg);
+    
+      }
+      .icon1{
+    width:40px;
+    height: 47px;
+    background: url(icons8-gmail-50.png);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+      }
+      .icon2{
+    width:40px;
+    height: 47px;
+    
+    background: url(icons8-level-up-your-coding-skills-and-quickly-land-a-job-50.png);
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    
+      }
+      .icon3{
+    width:40px;
+    height: 47px;
+    
+    background: url(icons8-github-50.png);
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    
+      }
+      .icon4{
+    width:40px;
+    height: 47px;
+    background: url(icons8-linkedin-logo-50.png);
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+      }
+      .icon5{
+    width:40px;
+    height: 47px;
+    background: url(icons8-phone-50.png);
+    
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    
+      }
+      .icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 0px;
+    gap: 0px 35px;
+    
+    position: absolute;
+    width: 900px;
+    height: 45px; 
+    left:40px;
+    top: 600px;
+      }  
+  }
+  /* Tablet Landscape */
+  @media (min-width: 768px) and (max-width: 1199px) {
+    body{
+      position: relative;
+      width: 1000px;
+      height: 100px;
+      background: #E6F7F7;
+      }
+    
+      h2{
+    position: absolute;
+    width: 382px;
+    height: 112px;
+    left: 364px;
+    margin-top: 100px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    color: #007575;
+    
+      }
+      h3{
+    position: absolute;
+    width: 346px;
+    height: 85px;
+    left: 207px;
+    margin-top: 300px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #2C7777;
+      }
+      hr{
+    position: absolute;
+    width: 1095px;
+    height: 0px;
+    left: 38px;
+    margin-top: 500px;
+    border: 1px solid #333333;
+      }
+      .mainimage{
+    
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius:175px;
+    left: 1087px;
+    top: 200px;
+    
+    background: url(photo_2022-05-06_17-58-31.jpg);
+    
+      }
+      .icon1{
+    width:40px;
+    height: 47px;
+    background: url(icons8-gmail-50.png);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+      }
+      .icon2{
+    width:40px;
+    height: 47px;
+    
+    background: url(icons8-level-up-your-coding-skills-and-quickly-land-a-job-50.png);
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    
+      }
+      .icon3{
+    width:40px;
+    height: 47px;
+    
+    background: url(icons8-github-50.png);
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    
+      }
+      .icon4{
+    width:40px;
+    height: 47px;
+    background: url(icons8-linkedin-logo-50.png);
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+      }
+      .icon5{
+    width:40px;
+    height: 47px;
+    background: url(icons8-phone-50.png);
+    
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    
+      }
+      .icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 0px;
+    gap: 0px 35px;
+    
+    position: absolute;
+    width: 900px;
+    height: 45px; 
+    left:40px;
+    top: 600px;
+      }  
+  }
+  @media (min-width: 480px) and (max-width: 599px) { /* Mobile Landscape */
+    body{
+      position: relative;
+      width: 926px;
+      height: 428px;
+      background: #E6F7F7;
+          }
+        nav{
+      position: absolute;
+      width: 926px;
+      height: 45px;
+      left: 0px;
+      top: 0px;
+      background: #66CCCC;  
+          }
+          nav a{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 10px;
+      position: absolute;
+      width: 32px;
+      height: 22px;
+      left: 871px;
+      top: 9px;
+          }
+        h2{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 115px;
+      gap: 10px;
+      position: absolute;
+      width: 315px;
+      height: 90px;
+      left: 158px;
+      top: 82px; 
+        }
+        
+        .firstimage{
+      position: absolute;
+      width: 123px;
+      height: 108px;
+      left: 737px;
+      top: 82px;
+      background: url(photo_2024-11-23_21-14-58.jpg);
+        }
+        .secondimage{
+      position: absolute;
+      width: 158px;
+      height: 143px;
+      left: 43px;
+      top: 208px;
+      background: url(photo_2024-11-23_09-53-55.jpg);
+        } 
+        .bodytext {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 16px;
+      gap: 10px;
+      position: absolute;
+      width: 633px;
+      height: 150px;
+      left: 236px;
+      top: 250px;
+      background: #E6F7F7;
+      border: 1px solid #CCEAEA;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }     
+  }
